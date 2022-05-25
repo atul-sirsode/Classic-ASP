@@ -20,4 +20,4 @@ Use of Third Party Library Eg: Chilkat
 # Open Visual Studio in admin-mode
 1) Enable debugging from visual studio, make sure vs should open in admin-mode.
 2) Hit debugger in code, want to debug
-3) goto debug menu, attach to process - > select w3wp.exe file process -> click attached.
+3) goto debug menu, attach to process - > in attach to : select script -> refresh - > select w3wp.exe file process -> click attached.
