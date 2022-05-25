@@ -16,3 +16,8 @@ Use of Third Party Library Eg: Chilkat
 5) click on application pool , create new application pool -> select .NET CLR version as No Managed Code, pipeline as Classic.
 6) click on server  > click on ASP component under IIS > under compilation Debugging properties -> Enable Server-side Debugging as True, and Send Errors to Browser as True.
 7) Apply Changes.
+
+# Open Visual Studio in admin-mode
+1) Enable debugging from visual studio, make sure vs should open in admin-mode.
+2) Hit debugger in code, want to debug
+3) goto debug menu, attach to process - > select w3wp.exe file process -> click attached.
